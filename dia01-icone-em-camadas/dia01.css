@@ -7,15 +7,6 @@ body {
     width: 100vw;
 }
 
-.social-media-icon span{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-    font-size: 28px;
-}
-
 ul.social-media-icon {
     display: flex;
     justify-content: center;
@@ -43,6 +34,13 @@ ul.social-media-icon {
     height: 100%;
 
     position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 28px;
 }
 
 .social-media-icon li:hover{

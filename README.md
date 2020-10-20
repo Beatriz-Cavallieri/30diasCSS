@@ -10,7 +10,7 @@
 
 [x] CSS global básico - comum a todas as paǵinas
 [] Extra - Refinar CSS global
-[] Dia 01: CSS
+[x] Dia 01: CSS
 [] Extra - dia 01: SASS
 [] Dia 02: CSS
 [] Dia 03: CSS
