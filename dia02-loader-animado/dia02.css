@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(150, 176, 167);
+  font-family: sans-serif;
+}
+
+.loader {
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+
+.circulo {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+
+  background-color: transparent;
+  box-shadow: 0 5px 0 black;
+
+  animation: rodar 1.8s linear infinite;
+}
+
+.texto {
+  position: relative;
+
+  top: -90px;
+  text-align: center;
+}
+
+@keyframes rodar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
