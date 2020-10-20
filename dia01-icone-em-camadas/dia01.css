@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.social-media-icon span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 28px;
+}
+
+ul.social-media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-icon li {
+    margin: 2em;
+    list-style: none;
+    position: relative;
+
+    width: 65px;
+    height: 65px;
+
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(-20deg) skew(30deg);
+
+    transition: 0.4s;
+}
+
+.social-media-icon li span {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+
+.social-media-icon li:hover{
+    cursor: pointer;
+}
+
+.social-media-icon li:hover span{
+    transform: translate(32px, -32px);
+}
+
+.social-media-icon li:hover span:nth-child(4){
+    transform: translate(24px, -24px);
+    opacity: 80%;
+}
+
+.social-media-icon li:hover span:nth-child(3){
+    transform: translate(16px, -16px);
+    opacity: 60%;
+}
+
+.social-media-icon li:hover span:nth-child(2){
+    transform: translate(8px, -8px);
+    opacity: 40%;
+}
+
+.social-media-icon li:hover span:nth-child(1){
+    transform: translate(0, 0);
+    opacity: 20%;
+}
+
+.facebook span{
+    background-color: #3B5998;
+}
+
+.twitter span{
+    background-color: #1DA1F2;
+}
+
+.linkedin span{
+    background-color: #0e76a8;
+}
+
+.instagram span{
+    background: linear-gradient(45deg, #feda77 0%,#e6683c 20%,#dc2743 56%,#bc1888 100%);
+}
