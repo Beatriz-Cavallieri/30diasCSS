@@ -1,4 +1,4 @@
-# :ribbon: [Desafio 30 dias de CSS](https://github.com/MilenaCarecho/30diasDeCSS) proposto por Milena Carecho :ribbon:
+# :ribbon: [Desafio 30 dias de CSS](https://github.com/MilenaCarecho/30diasDeCSS) :ribbon:
 
 ## Meu objetivo
 
@@ -6,19 +6,23 @@
 * Terminar o desafio em até 20 dias, ou seja, finalizar uma média de 1,5 desafios por dias em vez do padrão de 1.
 * Quando for uma oportunidade interessante de aplicar SASS, fazer uma segunda versão em SASS, além da versão de CSS.
 
+## Resultados
+
+É possível ver os resultados na [minha página no CodePen](https://codepen.io/beatriz-cavallieri)
+
 ## Lista de tarefas
 
 [x] CSS global básico - comum a todas as paǵinas
 
 [] Extra - Refinar CSS global
 
-[x] Dia 01: CSS
+[x] [Dia 01](https://codepen.io/beatriz-cavallieri/pen/WNxGzaG)
 
 [] Extra - dia 01: SASS
 
-[x] Dia 02: CSS
+[x] [Dia 02](https://codepen.io/beatriz-cavallieri/pen/JjKRLQe)
 
-[] Dia 03: CSS
+[x] [Dia 03](https://codepen.io/beatriz-cavallieri/pen/JjKbYzB)
 
 [] Dia 04: CSS
 
