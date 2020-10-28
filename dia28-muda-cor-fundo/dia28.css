@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(20deg, pink,darkblue);
+
+    background-size: 400vh 100vw;
+
+    animation: mudar-fundo 30s linear infinite;
+}
+
+@keyframes mudar-fundo {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 0% 80%;
+    }
+ 
+}
