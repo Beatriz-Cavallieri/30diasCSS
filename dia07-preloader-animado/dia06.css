@@ -1,0 +1,63 @@
+body {
+    color: rgb(206, 107, 128);
+    background-color: rgb(51, 13, 6);
+}
+
+.preloader {
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+
+.quadrado-preloader {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(206, 107, 128);
+    animation: movimentar 4s linear infinite;
+}
+
+.quadrado-preloader:nth-of-type(2) {
+    animation-delay: 1.3s;
+}
+
+.quadrado-preloader:nth-of-type(3) {
+    animation-delay: 2.6s;
+}
+
+@keyframes movimentar {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    12% {
+        top: 0;
+        left: 70px;
+    }
+    25% {
+        top: 0;
+        left: 70px;
+    }
+    37% {
+        top: 70px;
+        left: 70px;
+    }
+    50% {
+        top: 70px;
+        left: 70px;
+    }
+    62% {
+        top: 70px;
+        left: 0;
+    }
+    75% {
+        top: 70px;
+        left: 0;
+    }
+    87% {
+        top: 0;
+        left: 0;
+    }
+}

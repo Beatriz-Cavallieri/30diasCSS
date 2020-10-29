@@ -26,11 +26,11 @@
 
 [x] [Dia 04](https://codepen.io/beatriz-cavallieri/pen/BazYYOP)
 
-[x] [Dia 05] (https://codepen.io/beatriz-cavallieri/pen/eYzMpbv)
+[x] [Dia 05](https://codepen.io/beatriz-cavallieri/pen/eYzMpbv)
 
-[x] [Dia 06] (https://codepen.io/beatriz-cavallieri/pen/pobLgaW)
+[x] [Dia 06](https://codepen.io/beatriz-cavallieri/pen/pobLgaW)
 
-[] Dia 07: CSS
+[x] [Dia 07](https://codepen.io/beatriz-cavallieri/pen/ZEOxWpV)
 
 [] Dia 08: CSS
 
