@@ -26,7 +26,7 @@
 
 [x] [Dia 04](https://codepen.io/beatriz-cavallieri/pen/BazYYOP)
 
-[] Dia 05: CSS
+[x] [Dia 05] (https://codepen.io/beatriz-cavallieri/pen/eYzMpbv)
 
 [] Dia 06: CSS
 
