@@ -1,0 +1,45 @@
+body {
+    color: whitesmoke;
+    background-color: #356;
+}
+
+button {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 5px solid whitesmoke;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+button::before, button::after {
+    content: "";
+    background-color: #356;
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    transform: skewX(-40deg);
+    transition: 0.4s ease-in-out;
+}
+
+button::before {
+    left: 30%;
+    top: -5px;
+}
+
+button::after {
+    bottom: -5px;
+    right: 30%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:hover::before {
+    left: 70%;
+}
+
+button:hover::after {
+    right: 70%;
+}
