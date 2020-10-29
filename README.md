@@ -22,7 +22,7 @@
 
 [x] [Dia 02](https://codepen.io/beatriz-cavallieri/pen/JjKRLQe)
 
-[x] [Dia 03](https://codepen.io/beatriz-cavallieri/pen/JjKbYzB)
+[x] [Dia 03](https://codepen.io/beatriz-cavallieri/pen/LYZQQEV)
 
 [] Dia 04: CSS
 
@@ -46,7 +46,7 @@
 
 [] Dia 14: CSS
 
-[] Dia 15: CSS
+[x] [Dia 15: CSS] (https://codepen.io/beatriz-cavallieri/pen/dyXdzYL)
 
 [] Dia 17: CSS
 
@@ -60,7 +60,7 @@
 
 [] Dia 22: CSS
 
-[] Dia 23: CSS
+[x] [Dia 23: CSS] (https://codepen.io/beatriz-cavallieri/pen/JjKbYzB)
 
 [] Dia 24: CSS
 
@@ -70,7 +70,7 @@
 
 [] Dia 27: CSS
 
-[] Dia 28: CSS
+[x] [Dia 28: CSS] (https://codepen.io/beatriz-cavallieri/pen/ExyQwZx)
 
 [] Dia 29: CSS
 
