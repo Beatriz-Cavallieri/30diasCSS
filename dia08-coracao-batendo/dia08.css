@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(30deg, rgb(250, 185, 159), whitesmoke);
+}
+
+.coracao {
+    background-color: lightcoral;
+    width: 110px;
+    height: 110px;
+    transform: rotate(45deg);
+    position: relative;
+    border-radius: 8px;
+    animation: bater 2s linear infinite;
+}
+
+.coracao::before {
+    content: '';
+    background-color: lightcoral;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+}
+
+.coracao::after {
+    content: '';
+    background-color: lightcoral;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+}
+
+@keyframes bater {
+    0%, 50% {
+        transform: rotate(45deg) scale(1);
+    }
+    25% {
+        transform: rotate(45deg) scale(1.1);
+    }
+    75% {
+        transform: rotate(45deg) scale(1.2);
+    }
+}
