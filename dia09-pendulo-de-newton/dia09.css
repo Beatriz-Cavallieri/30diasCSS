@@ -1,0 +1,70 @@
+.pendulo-de-newton {
+    border-top: 8px solid goldenrod;
+    width: 500px;
+    display: flex;
+}
+
+.pendulo {
+    height: 400px;
+    width: 4px;
+    margin: 0 48px;
+    background-color: goldenrod;
+    position: relative;
+    transform-origin: top;
+}
+
+.pendulo::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    position: absolute;
+    bottom: 0;
+    left:-50px;
+}
+
+.pendulo-de-newton .pendulo:first-child {
+    animation: esquerda 5s linear
+    infinite;
+}
+
+.pendulo-de-newton .pendulo:last-child {
+    animation: direita 5s linear infinite;
+}
+
+@keyframes esquerda {
+    25%, 75% {
+        transform: rotate(0);
+    }
+    0%, 100% {
+        transform: rotate(35deg);
+    }
+    6.25%, 93.75% {
+        transform: rotate(32.66deg);
+    }
+    12.5%, 87.5% {
+        transform: rotate(27.99deg);
+    }
+    18.75%, 81.25% {
+        transform: rotate(18.66deg);
+    }
+}
+
+@keyframes direita {
+    0%, 25%, 75%, 100% {
+        transform: rotate(0);
+    }
+    31.25%, 68.75% {
+        transform: rotate(-18.66deg);
+    }
+    37.5%, 62.5%{
+        transform: rotate(-27.99deg);
+    }
+    43.75%, 56.25% {
+        transform: rotate(-32.66deg);
+    }
+    50% {
+        transform: rotate(-35deg);
+    }
+}

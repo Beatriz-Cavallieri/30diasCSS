@@ -34,7 +34,7 @@
 
 [x] [Dia 08](https://codepen.io/beatriz-cavallieri/pen/zYBLMJO)
 
-[] Dia 09: CSS
+[x] [Dia 09](https://codepen.io/beatriz-cavallieri/pen/wvWQJoP)
 
 [] Dia 10: CSS
 
