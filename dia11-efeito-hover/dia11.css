@@ -1,0 +1,40 @@
+button.efeito {
+    background-color: transparent;
+    padding: 15px 30px;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+
+    position: relative;
+    overflow: hidden;
+
+    transition: 1s;
+
+    font-size: 20px;
+}
+
+button.efeito span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: palevioletred;
+
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+    transition: 1s;
+
+    z-index: -2;
+}
+
+button.efeito:hover {
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+
+button.efeito:hover span{
+    height: 200%;
+}
