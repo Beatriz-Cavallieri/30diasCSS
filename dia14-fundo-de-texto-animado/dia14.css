@@ -1,0 +1,25 @@
+body {
+    color: #ddd;
+    background-color: rgb(88, 1, 1);
+}
+
+h2.fundo-animado {
+    font-size: 250px;
+    text-transform: uppercase;
+    font-family: Verdana, sans serif;
+    color: rgba(0,0,0, 0.3);
+    background: url("./fundo.jpg");
+    overflow: hidden;
+    background-clip: text;
+
+    animation: deslizar 5s linear infinite;
+}
+
+@keyframes deslizar {
+    0% {
+        background-position: left center;
+    }
+    100% {
+        background-position: 78% center;
+    }
+}

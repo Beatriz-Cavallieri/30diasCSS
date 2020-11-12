@@ -44,7 +44,7 @@
 
 [] Dia 13: CSS
 
-[] Dia 14: CSS
+[x] Dia 14: CSS
 
 [x] [Dia 15: CSS] (https://codepen.io/beatriz-cavallieri/pen/dyXdzYL)
 
