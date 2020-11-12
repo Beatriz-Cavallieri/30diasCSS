@@ -1,0 +1,17 @@
+.efeito-preenchimento {
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bolder;
+    background: linear-gradient(to right, gray 40%, rgb(159, 52, 202) 50%);
+    background-size: 350%;
+    background-position: top left;
+transition: 2s;
+
+    color: transparent;
+    background-clip: text;
+
+}
+
+.efeito-preenchimento:hover {
+    background-position: top right;
+}
