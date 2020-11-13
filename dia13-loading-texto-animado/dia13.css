@@ -1,0 +1,50 @@
+.loader {
+  font-size: 42px;
+  font-family: sans-serif;
+  position: relative;
+  left: -2em;
+}
+
+.loader span {
+  position: relative;
+  animation: deslocar 3s infinite;
+}
+
+.loader span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.loader span:nth-child(3) {
+  animation-delay: 0.25s;
+}
+
+.loader span:nth-child(4) {
+  animation-delay: 0.35s;
+}
+
+.loader span:nth-child(5) {
+  animation-delay: 0.45s;
+}
+
+.loader span:nth-child(6) {
+  animation-delay: 0.55s;
+}
+
+.loader span:nth-child(7) {
+  animation-delay: 0.65s;
+}
+
+@keyframes deslocar {
+  0% {
+      color: red;
+    left: 0;
+  }
+  50% {
+    left: 4em;
+    color: purple;
+  }
+  100% {
+    left: 0;
+    color: blue;
+  }
+}

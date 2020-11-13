@@ -42,7 +42,7 @@
 
 [x] [Dia 12](https://codepen.io/beatriz-cavallieri/pen/GRqPGZO)
 
-[] Dia 13: CSS
+[x] [Dia 13](https://codepen.io/beatriz-cavallieri/pen/qBNgmWd)
 
 [x] Dia 14: CSS
 
