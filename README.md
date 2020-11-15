@@ -3,8 +3,6 @@
 ## Meu objetivo
 
 * Melhorar meu domínio de CSS e de SASS.
-* Terminar o desafio em até 20 dias, ou seja, finalizar uma média de 1,5 desafios por dias em vez do padrão de 1.
-* Quando for uma oportunidade interessante de aplicar SASS, fazer uma segunda versão em SASS, além da versão de CSS.
 
 ## Resultados
 
@@ -46,11 +44,11 @@
 
 [x] Dia 14: CSS
 
-[x] [Dia 15: CSS](https://codepen.io/beatriz-cavallieri/pen/dyXdzYL)
+[x] [Dia 15](https://codepen.io/beatriz-cavallieri/pen/dyXdzYL)
 
 [x] [Dia 16](https://codepen.io/beatriz-cavallieri/pen/WNxPjdY)
 
-[] Dia 17: CSS
+[x] [Dia 17](https://codepen.io/beatriz-cavallieri/pen/QWEoWQw)
 
 [] Dia 18: CSS
 
@@ -62,7 +60,7 @@
 
 [] Dia 22: CSS
 
-[x] [Dia 23: CSS] (https://codepen.io/beatriz-cavallieri/pen/JjKbYzB)
+[x] [Dia 23](https://codepen.io/beatriz-cavallieri/pen/JjKbYzB)
 
 [] Dia 24: CSS
 
@@ -72,7 +70,7 @@
 
 [] Dia 27: CSS
 
-[x] [Dia 28: CSS] (https://codepen.io/beatriz-cavallieri/pen/ExyQwZx)
+[x] [Dia 28](https://codepen.io/beatriz-cavallieri/pen/ExyQwZx)
 
 [] Dia 29: CSS
 
