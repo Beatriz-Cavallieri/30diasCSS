@@ -1,0 +1,35 @@
+.esfumacar {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.5em;
+    color: indigo;
+    display: flex;
+}
+
+.esfumacar span {
+    transition: 3s;
+}
+
+.esfumacar:hover {
+    cursor: pointer;
+}
+
+.esfumacar:hover span {
+    transform: rotate(50deg) translateY(-150px);
+    color: transparent;
+    filter: blur(10px);
+}
+
+.esfumacar:hover span:nth-child(2) {
+    transition-delay: 0.3s;
+}
+.esfumacar:hover span:nth-child(3) {
+    transition-delay: 0.6s;
+}
+.esfumacar:hover span:nth-child(4) {
+    transition-delay: 0.9s;
+}
+.esfumacar:hover span:nth-child(5) {
+    transition-delay: 1.2s;
+}

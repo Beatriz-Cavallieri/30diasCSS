@@ -50,7 +50,7 @@
 
 [x] [Dia 17](https://codepen.io/beatriz-cavallieri/pen/QWEoWQw)
 
-[] Dia 18: CSS
+[x] [Dia 18](https://codepen.io/beatriz-cavallieri/pen/xxOBxQY)
 
 [] Dia 19: CSS
 
