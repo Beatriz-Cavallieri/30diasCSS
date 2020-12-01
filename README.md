@@ -62,7 +62,7 @@
 
 [x] [Dia 23](https://codepen.io/beatriz-cavallieri/pen/JjKbYzB)
 
-[] Dia 24: CSS
+[x] [Dia 24](https://codepen.io/beatriz-cavallieri/pen/xxEwbGJ)
 
 [] Dia 25: CSS
 

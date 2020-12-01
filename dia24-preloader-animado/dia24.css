@@ -1,0 +1,67 @@
+body {
+    color: lavender;
+    background-color: #222;
+}
+
+.preloader {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    transform: rotate(45deg);
+    animation: girar 10s linear infinite;
+    animation-direction: normal;
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+    animation: girar2 2s linear infinite;
+}
+
+.preloader div:first-child {
+    background-color: lightsalmon;
+}
+
+.preloader div:nth-child(2){
+    background-color: pink;
+}
+
+.preloader div:nth-child(3) {
+    background-color: skyblue;
+}
+
+.preloader div:last-child {
+    background-color: lightseagreen;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(45deg);
+    }
+   12.5%, 25% {
+        transform: rotate(135deg);
+    }
+    37.5%, 50% {
+        transform: rotate(225deg);
+    }
+    62.5%, 75% {
+        transform: rotate(315deg);
+    }
+    87.5%, 100% {
+        transform: rotate(405deg);
+    }
+}
+
+@keyframes girar2 {
+    0%, 10% {
+        transform: rotate(0deg);
+        margin: 0px;
+    }
+    45%, 55% {
+        margin: 15px;
+    }
+    90%, 100% {
+        transform: rotate(360deg);
+        margin: 0px;
+    }
+}
