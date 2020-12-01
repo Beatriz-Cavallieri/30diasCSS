@@ -52,7 +52,7 @@
 
 [x] [Dia 18](https://codepen.io/beatriz-cavallieri/pen/xxOBxQY)
 
-[] Dia 19: CSS
+[x] [Dia 19](https://codepen.io/beatriz-cavallieri/pen/poEjvPr)
 
 [] Dia 20: CSS
 
