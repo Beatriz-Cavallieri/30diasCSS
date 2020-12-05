@@ -56,7 +56,7 @@
 
 [] Dia 20: CSS
 
-[] Dia 21: CSS
+[x] Dia 21: CSS
 
 [] Dia 22: CSS
 
