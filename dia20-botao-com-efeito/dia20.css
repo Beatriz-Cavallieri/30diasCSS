@@ -1,0 +1,56 @@
+button {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  background-color: mediumpurple;
+  padding: 1em 3em;
+  line-height: 1em;
+  outline: none;
+  border-radius: 3px;
+}
+
+button.efeito-hover {
+  display: flex;
+  position: relative;
+}
+
+button::before {
+  content: "";
+  width: 10px;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  background-color: white;
+  transform: skew(20deg);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:hover::before {
+  animation-name: efeito;
+  animation-duration: 1s;
+}
+
+@keyframes efeito {
+  0%,
+  100% {
+    left: -30px;
+    width: 10px;
+  }
+  40% {
+    width: 40px;
+  }
+  50% {
+    width: 10px;
+  }
+  70% {
+    left: 200%;
+  }
+  80% {
+    left: 200%;
+  }
+}

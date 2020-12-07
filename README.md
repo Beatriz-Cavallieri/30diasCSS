@@ -54,7 +54,7 @@
 
 [x] [Dia 19](https://codepen.io/beatriz-cavallieri/pen/poEjvPr)
 
-[] Dia 20: CSS
+[X] Dia 20: CSS
 
 [x] Dia 21: CSS
 
